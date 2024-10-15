@@ -4,14 +4,17 @@ import pandas as pd # represent data
 import matplotlib.pyplot as pit #in graph
 
 x=np.array([1,7,8,11,9,3,2,4])
-print("The mean =",x.mean())
-print("The maximum =",x.max())
-print("The minimum=",x.min())
+# print("The mean =",x.mean())
+# print("The maximum =",x.max())
+# print("The minimum=",x.min())
 # x.sort()
 # print(x)
 
 for i in x:
-    print(i)
+    for j in x:
+     if i<j:
+      i=j
+      print(i)
 # we need to sort the data without high order function
 # Arry slicing =it will get the data from inside the  array whether it can be full data or selected data
 print(x[0:8])   
@@ -37,9 +40,6 @@ y=np.array([3,1,7,9,2,11,8,10])
 z=x+y
 print(z)
 
-x=np.array([1,2,3,4])
-myDataFrame=pd.Dataframe(x)
-print(myDataFrame)
 
     
     
