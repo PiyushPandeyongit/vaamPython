@@ -30,8 +30,3 @@ print(readStock.read())
 import os
 os.remove("Devansh.txt")
 
-x=5
-if x>5:
-print(x)
-else:
-print(x)

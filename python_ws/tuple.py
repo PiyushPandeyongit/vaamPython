@@ -26,3 +26,4 @@ print(is_present)  # Output: True
 # slicing
 sub_mytuple=my_tuple[0:3]
 print(sub_mytuple)
+
